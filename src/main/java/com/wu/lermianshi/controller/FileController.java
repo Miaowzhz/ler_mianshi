@@ -4,7 +4,6 @@ import cn.hutool.core.io.FileUtil;
 import com.wu.lermianshi.common.ErrorCode;
 import com.wu.lermianshi.constant.FileConstant;
 import com.wu.lermianshi.exception.BusinessException;
-import com.wu.lermianshi.service.UserService;
 import com.wu.lermianshi.common.BaseResponse;
 import com.wu.lermianshi.common.ResultUtils;
 import com.wu.lermianshi.manager.CosManager;
@@ -16,6 +15,8 @@ import java.io.File;
 import java.util.Arrays;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
+
+import com.wu.lermianshi.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.springframework.web.bind.annotation.PostMapping;

@@ -1,21 +1,21 @@
 package com.wu.lermianshi.service;
 
+
+
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.wu.lermianshi.model.vo.LoginUserVO;
-import com.wu.lermianshi.model.vo.UserVO;
 import com.wu.lermianshi.model.dto.user.UserQueryRequest;
 import com.wu.lermianshi.model.entity.User;
+import com.wu.lermianshi.model.vo.LoginUserVO;
+import com.wu.lermianshi.model.vo.UserVO;
 
-import java.util.List;
 import javax.servlet.http.HttpServletRequest;
-
+import java.util.List;
 
 /**
- * 用户服务
- *
- * @author <a href="https://github.com/Miaowzhz">Ler</a>
- *  
+ * @author 仵明雨
+ * @description 用户服务
+ * @createDate 2024-09-07 17:01:36
  */
 public interface UserService extends IService<User> {
 
@@ -38,6 +38,7 @@ public interface UserService extends IService<User> {
      * @return 脱敏后的用户信息
      */
     LoginUserVO userLogin(String userAccount, String userPassword, HttpServletRequest request);
+
 
     /**
      * 获取当前登录用户

@@ -2,8 +2,7 @@ package com.wu.lermianshi.esdao;
 
 import com.wu.lermianshi.model.dto.post.PostEsDTO;
 import com.wu.lermianshi.model.dto.post.PostQueryRequest;
-import com.wu.lermianshi.model.entity.Post;
-import com.wu.lermianshi.service.PostService;
+
 import java.util.Arrays;
 import java.util.Date;
 import java.util.List;

@@ -1,6 +1,5 @@
 package com.wu.lermianshi.mapper;
 
-import com.wu.lermianshi.model.entity.Post;
 import java.util.Date;
 import java.util.List;
 import javax.annotation.Resource;

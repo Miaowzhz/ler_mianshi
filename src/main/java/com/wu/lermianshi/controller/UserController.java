@@ -12,7 +12,6 @@ import com.wu.lermianshi.exception.ThrowUtils;
 import com.wu.lermianshi.model.entity.User;
 import com.wu.lermianshi.model.vo.LoginUserVO;
 import com.wu.lermianshi.model.vo.UserVO;
-import com.wu.lermianshi.service.UserService;
 import com.wu.lermianshi.model.dto.user.UserAddRequest;
 import com.wu.lermianshi.model.dto.user.UserLoginRequest;
 import com.wu.lermianshi.model.dto.user.UserQueryRequest;
@@ -24,6 +23,7 @@ import java.util.List;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 
+import com.wu.lermianshi.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
